@@ -1,0 +1,20 @@
+html,
+h1 {
+  font-size: 70px;
+  color: #c72a2a;
+}
+h2 {
+  font-size: 40px;
+  color: #141e90;
+}
+
+.boxed {
+  background: #c72a2a;
+  opacity: 0.5;
+  padding: 5px;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}

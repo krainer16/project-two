@@ -4,10 +4,12 @@ h1 {
   font-size: 70px;
   color: #c72a2a;
 }
+
 h2 {
   font-size: 40px;
   color: #141e90;
-  line-height: 15px;
+  line-height: 40px;
+  margin-bottom: -20px;
 }
 
 .boxed {
@@ -55,4 +57,44 @@ nav ul li a {
 
 li {
   display: inline;
+}
+
+figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  color: #141e90;
+  margin-top: -10px;
+}
+
+figure {
+  padding-top: 66px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+br {
+  display: block;
+  margin: 10px 0;
+}
+
+footer {
+  background: #c72a2a;
+  opacity: 0.5;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }

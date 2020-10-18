@@ -12,6 +12,13 @@ h2 {
   margin-bottom: -20px;
 }
 
+h3 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #141e90;
+  margin-bottom: 15px;
+}
+
 .boxed {
   background: #c72a2a;
   opacity: 0.5;

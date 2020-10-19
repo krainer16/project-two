@@ -19,6 +19,13 @@ h3 {
   margin-bottom: 15px;
 }
 
+h4 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #141e90;
+  margin-bottom: -50px;
+}
+
 .boxed {
   background: #c72a2a;
   opacity: 0.5;
@@ -62,6 +69,15 @@ nav ul li a {
   font-weight: bold;
 }
 
+.biden2 {
+  margin-top: 5vh;
+  margin-bottom: -5vh;
+}
+
+.boxed p {
+  text-align: left;
+}
+
 li {
   display: inline;
 }
@@ -99,6 +115,7 @@ footer a {
   color: white;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 footer p {

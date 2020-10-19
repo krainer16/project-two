@@ -47,17 +47,25 @@ li {
   color: #141e90;
 }
 
+@media (max-width: 768px) {
+  nav ul {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
 nav {
-  height: 0px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-top: -4vh;
 }
 
 nav > a > img {
   height: 30px;
   width: auto;
-  margin-top: 7vh;
 }
 
 nav ul {

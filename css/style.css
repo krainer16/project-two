@@ -56,6 +56,12 @@ li {
   }
 }
 
+@media (min-width: 768px) {
+  nav {
+    padding: 0 40px;
+  }
+}
+
 nav {
   height: 80px;
   display: flex;

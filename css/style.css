@@ -36,6 +36,8 @@ h4 {
   padding-right: 10px;
   padding-bottom: 5px;
   margin-top: 8vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -76,7 +78,6 @@ nav {
   height: 80px;
   display: flex;
   justify-content: space-between;
-  margin-top: -4vh;
 }
 
 nav > a > img {
@@ -117,7 +118,6 @@ figcaption {
   font-size: 16px;
   font-style: italic;
   color: #141e90;
-  margin-top: -10px;
 }
 
 figure {
@@ -156,6 +156,7 @@ ul a {
   font-size: 10px;
   font-weight: normal;
   color: #141e90;
+  margin: 10px;
 }
 
 .whitebox {
@@ -202,16 +203,15 @@ section {
 }
 
 .accordion-item {
-  background-color: #c72a2a;
-  opacity: 0.5;
+  background: rgba(199, 42, 42, 0.5);
   border-radius: 0.4rem;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .accordion-link {
-  color: rgba(255, 255, 255, 0.8);
+  color: #141e90;
   text-decoration: none;
   width: 100%;
   display: flex;
@@ -221,7 +221,7 @@ section {
 }
 
 .accordion-link i {
-  color: white;
+  color: #141e90;
   padding: 0.5rem;
 }
 
@@ -233,7 +233,6 @@ section {
   max-height: 0;
   overflow: hidden;
   position: relative;
-  background-color: navy;
   transition: max-height 650ms;
 }
 

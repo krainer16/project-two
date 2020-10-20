@@ -3,6 +3,7 @@ h1 {
   padding-top: 15px;
   font-size: 70px;
   color: #c72a2a;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -40,11 +41,20 @@ h4 {
 p {
   font-size: 20px;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
   font-size: 24px;
   color: #141e90;
+}
+
+#overlay {
+  display: none;
+}
+
+.center {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -160,4 +170,97 @@ ul a {
 
 .whitebox p {
   text-align: left;
+}
+
+:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #141e90;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.accordion-item {
+  background-color: #c72a2a;
+  opacity: 0.5;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.accordion-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link i {
+  color: white;
+  padding: 0.5rem;
+}
+
+.accordion-link .ion-md-remove {
+  display: none;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: navy;
+  transition: max-height 650ms;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 90%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p {
+  font-size: 18px;
+  color: #141e90;
+  padding: 2rem;
+}
+
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add {
+  display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove {
+  display: block;
 }

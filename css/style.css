@@ -69,18 +69,36 @@ li {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  nav {
+    padding: 0 20px;
+  }
   nav ul {
-    display: flex;
-    max-width: 500px;
-    width: 100%;
-    justify-content: space-between;
+    max-width: 40vw;
+    width: 15vh;
+    height: 17vh;
+    background: #c72a2a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20;
+    box-sizing: border-box;
+  }
+  nav ul li {
+    padding-top: 10px;
+    padding-left: 20px;
   }
 }
 
 @media (min-width: 768px) {
   nav {
     padding: 0 40px;
+  }
+  nav ul {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
   }
 }
 

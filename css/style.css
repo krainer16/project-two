@@ -18,6 +18,7 @@ h2 {
   color: #141e90;
   line-height: 40px;
   margin-bottom: -20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -25,6 +26,7 @@ h3 {
   font-weight: normal;
   color: #141e90;
   margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h4 {
@@ -32,6 +34,7 @@ h4 {
   font-weight: normal;
   color: #141e90;
   margin-bottom: -50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .boxed {
@@ -109,6 +112,7 @@ nav ul li a {
 .biden2 {
   margin-top: 5vh;
   margin-bottom: -5vh;
+  text-align: center;
 }
 
 .boxed p {
@@ -145,8 +149,7 @@ footer {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 footer a {
